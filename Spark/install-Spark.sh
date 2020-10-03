@@ -18,6 +18,10 @@ cd spark-x
 wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
 
 bash ./Anaconda3-2020.07-Linux-x86_64.sh
+conda config --set auto_activate_base false
+
+conda install jupyter
+
 nano ~/.bashrc
 >> export PYSPARK_DRIVER_PYTHON="jupyter"
 >> export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
