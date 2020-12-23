@@ -1,5 +1,5 @@
 # install code
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/REPLACE_THIS_URL | cat
+curl -fsSL https://raw.githubusercontent.com/cenzwong/cenz-cmd-install/master/mongodb/install.sh | cat
 ```
