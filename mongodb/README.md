@@ -8,3 +8,6 @@ curl -fsSL https://raw.githubusercontent.com/cenzwong/cenz-cmd-install/master/mo
 ```
 sudo nano /etc/mongod.conf
 ```
+```
+sudo systemctl restart mongod.service
+```
