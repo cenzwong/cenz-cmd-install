@@ -24,4 +24,7 @@ etc/hadoop/core-site.xml:
 etc/hadoop/hdfs-site.xml:
 
 # follow to setup passphraseless ssh
--- Fail
+# https://stackoverflow.com/questions/42756555/permission-denied-error-while-running-start-dfs-sh
+pdsh -q -w localhost
+export PDSH_RCMD_TYPE=ssh
+
