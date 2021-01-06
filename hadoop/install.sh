@@ -28,3 +28,12 @@ etc/hadoop/hdfs-site.xml:
 pdsh -q -w localhost
 export PDSH_RCMD_TYPE=ssh
 
+###### command ######
+bin/hdfs namenode -format
+sbin/start-dfs.sh
+bin/hdfs dfs -mkdir /user
+bin/hdfs dfs -put src/*.xml hdfs
+bin/hdfs dfs -get output output
+bin/hdfs dfs -cat output/*
+sbin/stop-dfs.sh
+######
