@@ -15,6 +15,8 @@ cd 1_openvino_toolkit_p_<version>
 
 Step 4: Choose your installation option.
 
+sudo -E ./install_openvino_dependencies.sh 
+
 GUI Installation Wizard: sudo ./install_GUI.sh
 Command-Line Instructions: sudo ./install.sh
 Step 5: Follow the instructions in the installer.
