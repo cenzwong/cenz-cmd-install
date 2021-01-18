@@ -11,3 +11,9 @@ curl -fsSL https://raw.githubusercontent.com/REPLACE_THIS_URL | cat
 # This line is to run the script
 curl -fsSL https://raw.githubusercontent.com/REPLACE_THIS_URL | sh
 ```
+
+## New Ubuntu Desktop
+```sh
+sudo apt install curl git
+sudo snap install vscode --classic
+```
