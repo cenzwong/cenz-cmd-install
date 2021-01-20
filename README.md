@@ -14,6 +14,5 @@ curl -fsSL https://raw.githubusercontent.com/REPLACE_THIS_URL | sh
 
 ## New Ubuntu Desktop
 ```sh
-sudo apt install curl git
-sudo snap install vscode --classic
+curl -fsSL https://raw.githubusercontent.com/ | sh
 ```
