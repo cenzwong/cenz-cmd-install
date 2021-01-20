@@ -7,5 +7,3 @@ sudo apt-get install libopenblas-dev liblapack-dev
 sudo apt-get install libx11-dev libgtk-3-dev
 
 pip install dlib
-
-# Fail
