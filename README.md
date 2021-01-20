@@ -14,5 +14,5 @@ curl -fsSL https://raw.githubusercontent.com/REPLACE_THIS_URL | sh
 
 ## New Ubuntu Desktop
 ```sh
-curl -fsSL https://raw.githubusercontent.com/ | sh
+curl -fsSL https://raw.githubusercontent.com/cenzwong/cenz-cmd-install/master/newUbuntu.sh | sh
 ```
