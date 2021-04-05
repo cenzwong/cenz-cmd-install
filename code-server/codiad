@@ -1,0 +1,1 @@
+bash <(wget -qO- https://gist.githubusercontent.com/rnauber/9f579d1480db4cc5a9a3c97c00c52fb9/raw/install_codiad.sh )
