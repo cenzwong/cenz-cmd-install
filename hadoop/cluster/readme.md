@@ -83,4 +83,5 @@ hdfs namenode -format
 
 # start an dstop hdfs
 start-dfs.sh
+stop-dfs.sh
 ```
