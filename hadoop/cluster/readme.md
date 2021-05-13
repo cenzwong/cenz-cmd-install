@@ -45,7 +45,7 @@ readlink -f /usr/bin/javac | sed "s:/bin/javac::"
   </property>
 </configuration>
 ```
-- Edit hdfs-site.conf:
+- Edit hdfs-site.xml:
 ```
 <configuration>
   <property>
