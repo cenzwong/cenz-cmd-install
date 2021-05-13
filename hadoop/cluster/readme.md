@@ -70,4 +70,9 @@ readlink -f /usr/bin/javac | sed "s:/bin/javac::"
 ```
 vm1
 vm2
+#or
+ip1
+ip2
 ```
+- copy to other vm
+- scp ~/hadoop/etc/hadoop/* vm2:~/hadoop/etc/hadoop/ 
