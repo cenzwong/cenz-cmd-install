@@ -46,6 +46,7 @@ readlink -f /usr/bin/javac | sed "s:/bin/javac::"
 </configuration>
 ```
 - Edit hdfs-site.conf:
+```
 <configuration>
   <property>
     <name>dfs.namenode.name.dir</name>
