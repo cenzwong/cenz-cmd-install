@@ -75,4 +75,4 @@ ip1
 ip2
 ```
 - copy to other vm
-- scp ~/hadoop/etc/hadoop/* vm2:~/hadoop/etc/hadoop/ 
+- ```scp ~/hadoop/etc/hadoop/* vm2:~/hadoop/etc/hadoop/ ```
