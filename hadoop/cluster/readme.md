@@ -33,3 +33,35 @@ readlink -f /usr/bin/javac | sed "s:/bin/javac::"
 # set to the root of your Java installation
   export JAVA_HOME=/usr/java/latest
 ```
+
+# setting up cluster
+
+– Update ~/hadoop/etc/hadoop/core-site.xml:
+```
+<configuration>
+  <property>
+    <name>fs.default.name</name>
+    <value>hdfs://(master node):9000</value>
+  </property>
+</configuration>
+```
+- Edit hdfs-site.conf:
+<configuration>
+  <property>
+    <name>dfs.namenode.name.dir</name>
+    <value>/home/yike/data/nameNode</value>
+  </property>
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>/home/yike/data/dataNode</value>
+  </property>
+  <property>
+    <name>dfs.replication</name>
+    <value>1</value>
+  </property>
+  <property>
+    <name>dfs.namenode.datanode.registration.ip-hostname-check</name>
+    <value>false</value>
+  </property>
+</configuration>
+```
