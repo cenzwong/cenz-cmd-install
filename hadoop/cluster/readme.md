@@ -13,6 +13,7 @@ sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install ssh -y
 sudo apt-get install pdsh -y
 sudo apt install openjdk-11-jre-headless -y 
+sudo apt install openjdk-11-jdk-headless -y
 ```
 
 ```
