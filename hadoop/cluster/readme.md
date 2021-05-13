@@ -12,6 +12,7 @@ Apache Hadoop from 2.7.x to 2.10.x support both Java 7 and 8
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install ssh -y
 sudo apt-get install pdsh -y
+echo "ssh" | sudo tee /etc/pdsh/rcmd_default # config the default to ssh
 sudo apt install openjdk-11-jre-headless -y 
 sudo apt install openjdk-11-jdk-headless -y
 ```
