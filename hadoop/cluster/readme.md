@@ -22,3 +22,14 @@ wget https://apache.website-solution.net/hadoop/common/hadoop-3.3.0/hadoop-3.3.0
 tar xf hadoop-*.tar.gz
 sudo mv hadoop-3.3.0 hadoop
 ```
+```
+#adding pathh
+sudoedit /etc/environment
+source /etc/environment
+
+
+# JAVA_HOME 
+readlink -f /usr/bin/javac | sed "s:/bin/javac::"
+# set to the root of your Java installation
+  export JAVA_HOME=/usr/java/latest
+```
