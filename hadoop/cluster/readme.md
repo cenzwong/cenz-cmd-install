@@ -66,3 +66,8 @@ readlink -f /usr/bin/javac | sed "s:/bin/javac::"
   </property>
 </configuration>
 ```
+- Edit workers:
+```
+vm1
+vm2
+```
