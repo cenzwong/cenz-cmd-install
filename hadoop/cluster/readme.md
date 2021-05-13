@@ -86,6 +86,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub hpeadmin@172.16.10.92
 ## installing HDFS
 ```
 # format HDFS
+hdfs namenode 
 hdfs namenode -format
 
 # start an dstop hdfs
