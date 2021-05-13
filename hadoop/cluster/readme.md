@@ -79,6 +79,7 @@ ip2
 # hadling the keys
 ```
 ssh-keygen -b 4096
+ssh-copy-id -i ~/.ssh/id_rsa.pub hpeadmin@172.16.10.90 # including yourself
 ssh-copy-id -i ~/.ssh/id_rsa.pub hpeadmin@172.16.10.91
 ssh-copy-id -i ~/.ssh/id_rsa.pub hpeadmin@172.16.10.92
 ```
