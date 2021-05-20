@@ -7,3 +7,10 @@ wget https://raw.githubusercontent.com/cenzwong/cenz-cmd-install/master/docker-s
 # admin@example.com/changeme
 ```
 - code-server
+
+
+# install docker if docker.sock not found
+```
+sudo chmod 666 /var/run/docker.sock
+
+```
