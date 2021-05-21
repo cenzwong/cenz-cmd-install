@@ -29,11 +29,12 @@ sudo mv hadoop-3.3.0 hadoop
 sudoedit /etc/environment
 source /etc/environment
 
-
+find /usr/lib/jvm/java-1.x.x-openjdk
 # JAVA_HOME 
 readlink -f /usr/bin/javac | sed "s:/bin/javac::"
 # set to the root of your Java installation
   export JAVA_HOME=/usr/java/latest
+  
 ```
 
 # setting up cluster
