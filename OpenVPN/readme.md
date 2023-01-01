@@ -5,3 +5,8 @@ echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/as-repository.asc] http:/
 apt update && apt -y install openvpn-as
 
 ```
+
+Then change the password
+```
+passwd openvpn
+```
